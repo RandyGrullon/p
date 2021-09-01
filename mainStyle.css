@@ -1,0 +1,66 @@
+body {
+    background: #ccc8c8;
+}
+
+.container{
+    width: 965px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+.menu{
+    float: right;
+    
+}
+
+.top{
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.menu li{
+    display: inline-block;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Rampart One', cursive;
+}
+
+.menu a:hover{
+    
+    box-shadow: 0 2px 5px;
+    transform: scale(1.02)
+}
+
+.col {
+    width: 265px;
+    display: inline-block;
+    vertical-align: top;
+    text-align:justify;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.col h2{
+    color:rgb(0, 140, 255);
+    font-family: 'Rampart One', cursive;
+}
+.row{
+    text-align:center;
+}
+
+
+.thumbnail {  
+    box-shadow: 0 2px 5px;
+    transition: transform 0.5s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.02)
+}
